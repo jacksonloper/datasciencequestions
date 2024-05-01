@@ -177,9 +177,9 @@ each of $n=2000$ data points. You would like to fit this data using a
 GAM, with a smoothing spline for each feature. Which of the following
 will be your biggest challenge?
 
--   Picking the right regularization strength for each feature.
+a.   Picking the right regularization strength for each feature.
 
--   Choosing the right number of knots for each feature.
+b.   Choosing the right number of knots for each feature.
 
 :::{note} Solutions
 :class: dropdown

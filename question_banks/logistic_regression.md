@@ -74,7 +74,7 @@ is.
     both bilingualism status and income in the model). Why?
 
     :::{note} Solutions
-:class: dropdown
+    :class: dropdown
     Two things here. First, roughly speaking, income may be a
     "confound." We won't define that rigorously in this class, but the
     point is that bringing that extra predictor in may lead to a more
@@ -108,7 +108,7 @@ is.
     4.  $\exp(\hat f_2(x_2)-\hat f_1(x_2))$
 
     :::{note} Solutions
-:class: dropdown
+    :class: dropdown
     First answer is correct. Note that $\Delta(x_2$) is not not just a
     combination of ratios and logs: it is an important quantity for
     interpretation. It indicates the estimated change in the log odds of

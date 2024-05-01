@@ -38,11 +38,13 @@ $f(x;a,b,s) = a + \mathbb{I}(x\geq s)b$.
 
 Consider the dataset
 
+```
    **Sample**   **Hours of Sunlight**   **Revenue**
   ------------ ----------------------- -------------
        #1                 3                 4.5
        #2                 7                 5.0
        #3                 8                 7.0
+```
 
 Fit a regression stump to this dataset to predict revenue from hours of
 sunlight. What is the estimate of $\mathbb{E}[Y|X=x]$?
@@ -101,11 +103,13 @@ Gini coefficients), but of the listed answers only (d) is commonly used.
 
 Consider the dataset
 
+```
    **Sample**   **Hours of Sunlight**   **Woodchuck appears**
   ------------ ----------------------- -----------------------
        #1                 3                      No
        #2                 7                      No
        #3                 8                      Yes
+```
 
 If we fit a classification stump to this dataset to predict revenue from
 hours of sunlight, what would the final estimate be?
