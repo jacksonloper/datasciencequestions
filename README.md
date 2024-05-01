@@ -1,11 +1,7 @@
 # Data science questions
 
-This website has a collections of questions about data science topics.  They are designed to be pretty short (more like something for a quiz or exam, less like a homework problem).  Have fun!
+https://jacksonloper.github.io/datasciencequestions/ is a collections of questions about data science topics, targeted towards the introductory masters level.  They are pretty short (more like something for a quiz or exam, less like a homework problem).  Maybe they will delight you.
 
-Repo is at https://github.com/jacksonloper/datasciencequestions (feel free to submit PRs!).  Also feel free to suggest a catchier name than "data science questions."
+Repo holding all the questions is at https://github.com/jacksonloper/datasciencequestions.  
 
-Here we use the notation that $\mathbb{P}$ denotes probability, $\mathbb{E}$ denotes expectation, and
-$$\mathbb{I}(\mathrm{statement}) = \begin{cases}
-    1 & \mathrm{if\ statement\ is\ true} \\
-    0 & \mathrm{otherwise}.
-\end{cases}$$
+If you have ever taken or taught a masters-or-higher data-science course, feel free to submit PRs or issues to the repo.  Please include your background when you do so I have a sense of where you're coming from.    
