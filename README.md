@@ -1,6 +1,6 @@
 # Data science questions
 
-https://jacksonloper.github.io/datasciencequestions/ is a collections of questions about data science topics, targeted towards the introductory masters level.  They are pretty short (more like something for a quiz or exam, less like a homework problem).  Maybe they will delight you.
+https://jacksonloper.github.io/datasciencequestions/ is a collections of questions about data science topics, targeted towards the introductory masters level.  They are pretty short (more like something for a quiz or exam, less like a homework problem).  They are designed to be somewhat "gradeable" (i.e., most of the questions have one answer that is objectively right).  Maybe they will delight you.
 
 Repo holding all the questions is at https://github.com/jacksonloper/datasciencequestions.  
 
