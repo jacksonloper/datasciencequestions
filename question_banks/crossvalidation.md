@@ -87,11 +87,13 @@ fine.
 Consider a dataset concerning a single numerical response
 $Y \in \mathbb{R}$. The dataset has no predictors. Here is the dataset.
 
+```
    Sample ID   Response
   ----------- ----------
       #1         2.0
       #2         4.0
       #3         3.0
+```
 
 We seek to estimate the regression function. In this degenerate case,
 the regression function is simply the expected value of $Y$,
