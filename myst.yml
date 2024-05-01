@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5bbbbd72-d9e3-4739-bfb5-3dfb7c923568
+  # title:
+  # description:
+  keywords: []
+  authors: []
+  # github:
+  # bibliography: []
+site:
+  template: book-theme
+  title: Some Data Science Questions
+  options:
+    logo_text: Some Data Science Questions
+    # favicon: favicon.ico
+    # logo: site_logo.png
+  nav: []
+  # actions:
+    # - title: Learn More
+      # url: https://mystmd.org/guide
+  domains: []
