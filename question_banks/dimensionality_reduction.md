@@ -23,21 +23,22 @@ helpful to try to explicitly find suitable functions $f_e,f_d$.)*
 
 :::{note} Solutions
 :class: dropdown
-Zero. Here is a suitable autoencoder. $$\begin{aligned}
+Zero. Here is a suitable autoencoder. 
+$$\begin{aligned}
         f_e(x_{i1},x_{i2}) &= x_{i2} \\ 
-        f_d(z) &= (1,x_{i2}) \
-    
-\end{aligned}$$ The dataset has *no diversity* in the Height variable,
+        f_d(z) &= (1,x_{i2}) 
+\end{aligned}$$ 
+The dataset has *no diversity* in the Height variable,
 so, as far as this dataset is concerned, we can summarize everything
 about each sample by looking at Weight alone.
 :::
 
 ## Reconstruction error
 
-You have been given an autoencoder: $$\begin{aligned}
+You have been given an autoencoder: 
+$$\begin{aligned}
         f_e(x_1,x_2,x_3) &= (0.5*x_1+0.5*x_2,x_3) \\ 
-        f_d(z_1,z_2) &= (z_1,z_1,z_2) \
-    
+        f_d(z_1,z_2) &= (z_1,z_1,z_2) \    
 \end{aligned}$$
 
 What is the squared reconstruction error for the point $x=(2,4,6)$?

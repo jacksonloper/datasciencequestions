@@ -71,27 +71,27 @@ $$\sum_{i=1}^n \left( y_i - \beta_0 - \sum_{j=1}^p \beta_j x_{ij} \right)^2 + \l
 for a particular value of $\lambda$. For parts (a) through (e), indicate
 which of i. through v. is correct.
 
-1.  As we increase $\lambda$ from 0, the training error will:
+a.  As we increase $\lambda$ from 0, the training error will:
 
-    1.  Increase initially, and then eventually start decreasing in an
+    i.  Increase initially, and then eventually start decreasing in an
         inverted U shape.
 
-    2.  Decrease initially, and then eventually start increasing in a U
+    ii.  Decrease initially, and then eventually start increasing in a U
         shape.
 
-    3.  Steadily increase.
+    iii.  Steadily increase.
 
-    4.  Steadily decrease.
+    iv.  Steadily decrease.
 
-    5.  Remain constant.
+    v.  Remain constant.
 
-2.  Repeat (a) for test error.
+b.  Repeat (a) for test error.
 
-3.  Repeat (a) for variance.
+c.  Repeat (a) for variance.
 
-4.  Repeat (a) for (squared) bias.
+d.  Repeat (a) for (squared) bias.
 
-5.  Repeat (a) for the irreducible error.
+e.  Repeat (a) for the irreducible error.
 
 :::{note} Solutions
 :class: dropdown

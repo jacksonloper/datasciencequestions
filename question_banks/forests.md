@@ -63,11 +63,13 @@ predictor $X$ and one response $Y$. You also have already used a tree to
 fit an estimate, $\hat f(x)\approx \mathbb{E}[Y|X=x]$. The dataset and
 the current estimate $\hat f(x)$ are shown below.
 
-   **Sample**   $X$   $\hat f(X)$   $Y$
+```
+     Sample      X     \hat f(X)     Y 
   ------------ ----- ------------- -----
        #1        3        4.5       4.5
        #2        7         6        5.0
        #3        8         6        7.0
+```
 
 Now you would like to use boosting. You want to fit a second tree that
 improves on the results of the first. You decide your new tree will have
@@ -78,11 +80,13 @@ new tree. What is the function?
 :class: dropdown
 It's helpful to compute the residuals.
 
-   **Sample**   $X$   $\hat f(X)$   $Y$   residual
+```
+     Sample      X     \hat f(X)     Y    residual
   ------------ ----- ------------- ----- ----------
        #1        3        4.5       4.5      0
        #2        7         6        5.0      -1
        #3        8         6        7.0      1
+```
 
 We can either split around $X=5$ (between sample #1 and samples #2,#3)
 or split around $X=7.5$ (between samples #1,#2 and sample #3). Splitting
@@ -97,11 +101,13 @@ $$\hat g(x) = \begin{cases}
 With a learning rate of 1, we would produce a final prediction of
 $\hat f + \hat g$, leading to\...
 
-   **Sample**   $X$   $\hat f(X)+ \hat g(X)$   $Y$
+```
+     Sample      X     \hat f(X)+ \hat g(X)     Y 
   ------------ ----- ------------------------ -----
        #1        3             4.0             4.5
        #2        7             5.5             5.0
        #3        8             7.0             7.0
+```
 
 This final prediction is actually a bit worse for sample #1, but overall
 it is better.
