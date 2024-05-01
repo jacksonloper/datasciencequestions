@@ -1,0 +1,53 @@
+# Table of Contents
+#
+# Myst will respect:
+# 1. New pages
+#      - file: relative/path/to/page
+# 2. New sections without an associated page
+#      - title: Folder Title
+#        sections: ...
+# 3. New sections with an associated page
+#      - file: relative/path/to/page
+#        sections: ...
+#
+# Note: Titles defined on pages here are not recognized.
+#
+# This spec is based on the JupyterBook table of contents.
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+chapters:
+  - title: Question Banks
+    sections:
+      - title: Classification
+        sections:
+          - file: question_banks/classification/bayesian_classifiers
+          - file: question_banks/classification/hard_classifiers
+          - file: question_banks/classification/logistic_regression
+          - file: question_banks/classification/svms
+      - title: Unsupervised learning
+        sections:
+          - file: question_banks/clustering/agglomerative_clustering
+          - file: question_banks/clustering/partitional_clustering
+          - file: question_banks/dimensionality_reduction
+      - title: The quality of your estimator
+        sections:
+          - file: question_banks/bootstrap
+          - file: question_banks/crossvalidation
+          - file: question_banks/estimator_variance
+          - file: question_banks/predictive_error
+      - file: question_banks/KNN
+      - file: question_banks/loess
+      - title: Forests and trees
+        sections:
+          - file: question_banks/ft/trees
+          - file: question_banks/ft/forests
+      - title: Featurization, standardization, and the magic of splines
+        sections:
+          - file: question_banks/standardization
+          - file: question_banks/featurization
+          - file: question_banks/splines
+      - file: question_banks/reinforcement_learning
+      - file: question_banks/neural_nets
+      - file: question_banks/misc
